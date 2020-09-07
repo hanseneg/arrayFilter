@@ -28,3 +28,9 @@ const people = [
 ]
 const result = people.filter(person => person.age >= 18)
 console.log(result)
+
+// const result = people.filter(function(person){
+//     if(person.age >= 18){
+//         return person or true
+//     }
+// })
